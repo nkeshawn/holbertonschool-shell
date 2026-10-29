@@ -13,3 +13,4 @@
 12. find . -maxdepth 1 -type f | ls -t | head -n 10: displays the 10 newest files in the current directory.
 13. sort | uniq -u: takes a list of words as input and prints only words that appear exactly once. REMEMBER order matters - sort before using command uniq.
 14. grep "root" /etc/passwd: displays lines containing the pattern "root" from the file /etc/passwd.
+15. grep "bin" /etc/passwd | wc -l: displays the number of lines that contain the pattern "bin" in the file /etc/passwd

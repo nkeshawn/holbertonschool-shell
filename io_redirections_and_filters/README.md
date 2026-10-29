@@ -6,5 +6,6 @@
 5. head /etc/passwd: displays the first 10 lines of /etc/passwd.
 6. head -n 3 iacta | tail -n 1: displays the third line of the file iacta. (without using sed)
 7. echo "Best School" > '\'\*\\\'\"Best School\"\\'\\*$\?\*\*\*\*\*:)': creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School. REMEMBER to add \ to all single and double quotation marks.
+8. ls -la > ls_cwd_content: writes into the file ls_cwd_content the result of the command ls -la.
 
 

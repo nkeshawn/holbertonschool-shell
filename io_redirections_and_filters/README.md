@@ -18,4 +18,4 @@
 17. grep -v "bin" /etc/passwd: displays all the lines in the file /etc/passwd that do not contain the pattern "bin".
 18. grep '^[a-zA-Z]' /etc/ssh/sshd_config: displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 19. tr 'Ac' 'Ze': replaces all characters A and c from input to Z and e respectively.
-
+20. tr -d 'cC': removes all letters c and C from input.

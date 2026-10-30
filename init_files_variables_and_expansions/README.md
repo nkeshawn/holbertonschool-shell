@@ -5,3 +5,5 @@
 4. env: lists environment variables.
 5. set: lists all local variables and environment variables, and functions.
 6. BEST="School": creates a new local variable.
+7. export BEST="School": creates a new global variable.
+

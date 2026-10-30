@@ -4,3 +4,4 @@
 3. echo $PATH | tr ':' '\n' | grep -v '^$' | wc -l: counts the number of directories in the PATH. *REMOVE empty lines!
 4. env: lists environment variables.
 5. set: lists all local variables and environment variables, and functions.
+6. BEST="School": creates a new local variable.

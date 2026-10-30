@@ -10,3 +10,5 @@
 9. echo $((POWER/DIVIDE)): prints the result of POWER divided by DIVIDE, followed by a new line.
 10. echo $((BREATH**LOVE)): displays the result of BREATH to the power LOVE.
 11. echo $((2#$BINARY)): converts a number from base 2 to base 10.
+12. echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo': prints all possible combinations of two letters, except oo.
+13. printf "%.2f\n" "$NUM": Write a script that prints a number with two decimal places, followed by a new line.
